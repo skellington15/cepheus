@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cepheus: Finding Our Home Amongst the Stars</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+
+<body class="scroll">
+    <section class="back">
+        <h1>
+            <a class="Cepheus" href="home.html">Cepheus</a>
+        </h1>
+        <header>
+            <nav>
+                <ul class="nav">
+                    <li class="nav2">
+                        <div class="dropdown">
+                            <button class="dropbtn">Mission</button>
+                            <div class="dropdown-content">
+                                <a class="a" href="overview.html">Overview</a>
+                                <a class="a" href="team.html">Team</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav1">
+                        <a class="cepheus" href="Spaceship.html">Spaceship</a>
+                    </li>
+                    <li class="nav2">
+                        <div class="dropdown">
+                            <button class="dropbtn">Discover</button>
+                            <div class="dropdown-content">
+                                <a class="a" href="location.html">Location</a>
+                                <a class="a" href="journey.html">Journey</a>
+                                <a class="a" href="base.html">Base</a>
+                                <a class="a" href="health.html">Health</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav2">
+                        <div class="dropdown">
+                            <button class="dropbtn">Project Highlights</button>
+                            <div class="dropdown-content">
+                                <a class="a" href="goals.html">Goals</a>
+                                <a class="a" href="process.html">Process Log</a>
+                                <a class="a" href="annotations.html">Annotaions & Thinking</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav1">
+                        <a class="cepheus" href="sources.html">Sources</a>
+                    </li>
+                </ul>
+              
+                    
+                
+           </nav>
+        </header>
+    </section>
+    <section id="home">
+        <div class="intro">
+            <h1 style="font-family: 'Return Space', serif;">CEPHEUS</h1>
+            <p>Finding Our Home Amongst the Stars</p>
+            <a href="#background" class="btn">Learn More</a>
+            <script>
+                document.querySelector('.learn-more-btn').addEventListener('click', function(e) {
+    e.preventDefault();
+    document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+    });
+});
+            </script>
+      
